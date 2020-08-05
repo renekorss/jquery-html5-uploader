@@ -1,6 +1,6 @@
 {
   "name": "@renekorss/jquery-html5-uploader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery drag & drop file uploader",
   "main": "jquery.html5uploader.js",
   "scripts": {
