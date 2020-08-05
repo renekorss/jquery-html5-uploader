@@ -1,8 +1,11 @@
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![npm version](https://badge.fury.io/js/jquery-html5-uploader.svg)](https://badge.fury.io/js/jquery-html5-uploader)
+[![npm](https://img.shields.io/npm/dt/jquery-html5-uploader.svg)](https://www.npmjs.com/package/jquery-html5-uploader)
+[![Known Vulnerabilities](https://snyk.io/test/github/renekorss/jquery-html5-uploader/badge.svg?targetFile=package.json)](https://snyk.io/test/github/renekorss/jquery-html5-uploader?targetFile=package.json)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-#jQuery HTML5 Uploader
+# jQuery HTML5 Uploader
 
-jQuery HTML5 Uploader is a lightweight [jQuery plugin](http://plugins.jquery.com/) that lets you to quickly add an upload system [a-la-Gmail](http://googlesystem.blogspot.co.uk/2010/04/drag-and-drop-gmail-attachments.html) into your web app.
+jQuery HTML5 Uploader is a lightweight jQuery plugin that lets you to quickly add an upload system [a-la-Gmail](http://googlesystem.blogspot.co.uk/2010/04/drag-and-drop-gmail-attachments.html) into your web app.
 
 You only need to create a dropbox element (i.e. a div) and jQuery HTML5 Uploader will do the rest. Then you can drag & drop one or more files on the element and the files will be uploaded.
 
@@ -12,7 +15,7 @@ The upload function is divided into two asynchronous operations: client side, th
 
 It has been tested and works on [Firefox](https://www.mozilla.org/en-GB/firefox/new/) and [Chrome](http://www.google.com/chrome/).
 
-#Usage
+## Usage
 
 ```html    
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -21,7 +24,7 @@ It has been tested and works on [Firefox](https://www.mozilla.org/en-GB/firefox/
 $(function() {
 	$("#dropbox, #multiple").html5Uploader({
 		name: "foo",
-		postUrl: "bar.aspx"	
+		postUrl: "bar.php"	
 	});
 });
 </script>
@@ -29,7 +32,7 @@ $(function() {
 <input id="multiple" type="file" multiple>
 ```
 
-#Settings
+## Settings
 
 - `name`: upload field identifier.
 - `postUrl`: the url to post the file data.

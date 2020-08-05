@@ -1,0 +1,26 @@
+{
+  "name": "jquery-html5-uploader",
+  "version": "1.0.0",
+  "description": "jQuery drag & drop file uploader",
+  "main": "jquery.html5uploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renekorss/jquery-html5-uploader.git"
+  },
+  "keywords": [
+    "jquery",
+    "upload",
+    "file",
+    "fileupload",
+    "dragdrop"
+  ],
+  "author": "Michele Bertoli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renekorss/jquery-html5-uploader/issues"
+  },
+  "homepage": "https://github.com/renekorss/jquery-html5-uploader#readme"
+}
