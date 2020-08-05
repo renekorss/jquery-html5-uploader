@@ -1,6 +1,6 @@
-[![npm version](https://badge.fury.io/js/jquery-html5-uploader.svg)](https://badge.fury.io/js/jquery-html5-uploader)
-[![npm](https://img.shields.io/npm/dt/jquery-html5-uploader.svg)](https://www.npmjs.com/package/jquery-html5-uploader)
-[![Known Vulnerabilities](https://snyk.io/test/github/renekorss/jquery-html5-uploader/badge.svg?targetFile=package.json)](https://snyk.io/test/github/renekorss/jquery-html5-uploader?targetFile=package.json)
+[![npm version](https://badge.fury.io/js/@renekorss/jquery-html5-uploader.svg)](https://badge.fury.io/js/@renekorss/jquery-html5-uploader)
+[![npm](https://img.shields.io/npm/dt/@renekorss/jquery-html5-uploader.svg)](https://www.npmjs.com/package/@renekorss/jquery-html5-uploader)
+[![Known Vulnerabilities](https://snyk.io/test/github/renekorss/@renekorss/jquery-html5-uploader/badge.svg?targetFile=package.json)](https://snyk.io/test/github/renekorss/@renekorss/jquery-html5-uploader?targetFile=package.json)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 # jQuery HTML5 Uploader
@@ -14,6 +14,10 @@ It also works with the [multiple input file element](http://www.w3.org/TR/html-m
 The upload function is divided into two asynchronous operations: client side, the file is loaded in the browser memory with a [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) object. Useful if you want, for example, to show the image preview while uploading a picture. The server side operation consists in sending the binary file string to the postUrl (see settings).
 
 It has been tested and works on [Firefox](https://www.mozilla.org/en-GB/firefox/new/) and [Chrome](http://www.google.com/chrome/).
+
+## Install
+
+    npm install @renekorss/jquery-html5-uploader
 
 ## Usage
 
